@@ -1,0 +1,6 @@
+#!/usr/bin/env zsh
+
+podman build \
+  --build-arg COMMIT=$(cat version/commit) \
+  --tag $(cat version/tag) \
+  .
