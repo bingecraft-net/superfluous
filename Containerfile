@@ -9,7 +9,7 @@ FROM base AS build
 
 ARG COMMIT
 
-ARG NODE_VERSION=23.6.0
+ARG NODE_VERSION=23
 
 RUN apt-get update && \
     apt-get upgrade -y && \
