@@ -1,3 +1,3 @@
-# antimatter
+# superfluous
 
-This repository defines a container image for the [Monifactory](https://github.com/ThePansmith/Monifactory) server. It has some specific tweaks for the antimatter instance of the Monifactory server software.
+Superfluous is a build and deployment of [Monifactory](https://github.com/ThePansmith/Monifactory) server. It sets the mode to expert mode and tweaks some configuration.
