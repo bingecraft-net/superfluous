@@ -1,0 +1,22 @@
+{
+  "id": "nickel_486-69-45",
+  "name": "nickel",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--16543026-waypoint-icon.png",
+  "x": 486,
+  "y": 69,
+  "z": -45,
+  "r": 3,
+  "g": 146,
+  "b": 206,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}

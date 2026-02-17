@@ -1,0 +1,22 @@
+{
+  "id": "magnetite_394-111-247",
+  "name": "magnetite",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--10329502-waypoint-icon.png",
+  "x": 394,
+  "y": 111,
+  "z": 247,
+  "r": 98,
+  "g": 98,
+  "b": 98,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}

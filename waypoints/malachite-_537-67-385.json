@@ -1,0 +1,22 @@
+{
+  "id": "malachite-_537-67-385",
+  "name": "malachite?",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--3085781-waypoint-icon.png",
+  "x": 537,
+  "y": 67,
+  "z": -385,
+  "r": 208,
+  "g": 234,
+  "b": 43,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}

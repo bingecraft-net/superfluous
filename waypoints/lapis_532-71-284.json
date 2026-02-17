@@ -1,0 +1,22 @@
+{
+  "id": "lapis_532-71-284",
+  "name": "lapis",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--16543026-waypoint-icon.png",
+  "x": 532,
+  "y": 71,
+  "z": -284,
+  "r": 3,
+  "g": 146,
+  "b": 206,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}

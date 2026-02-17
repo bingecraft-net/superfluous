@@ -1,0 +1,22 @@
+{
+  "id": "azurite_832-113-104",
+  "name": "azurite",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--16627714-waypoint-icon.png",
+  "x": 832,
+  "y": 113,
+  "z": 104,
+  "r": 2,
+  "g": 71,
+  "b": 254,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}

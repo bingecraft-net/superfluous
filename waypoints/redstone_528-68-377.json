@@ -1,0 +1,22 @@
+{
+  "id": "redstone_528-68-377",
+  "name": "redstone",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--121070-waypoint-icon.png",
+  "x": 528,
+  "y": 68,
+  "z": -377,
+  "r": 254,
+  "g": 39,
+  "b": 18,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}

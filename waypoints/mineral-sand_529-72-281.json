@@ -1,0 +1,22 @@
+{
+  "id": "mineral-sand_529-72-281",
+  "name": "mineral sand",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--9474193-waypoint-icon.png",
+  "x": 529,
+  "y": 72,
+  "z": -281,
+  "r": 111,
+  "g": 111,
+  "b": 111,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "mica_729-65-151",
+  "name": "mica",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--65794-waypoint-icon.png",
+  "x": 729,
+  "y": 65,
+  "z": 151,
+  "r": 254,
+  "g": 254,
+  "b": 254,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}

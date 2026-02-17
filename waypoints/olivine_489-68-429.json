@@ -1,0 +1,22 @@
+{
+  "id": "olivine_489-68-429",
+  "name": "olivine",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--3085781-waypoint-icon.png",
+  "x": 489,
+  "y": 68,
+  "z": -429,
+  "r": 208,
+  "g": 234,
+  "b": 43,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}
