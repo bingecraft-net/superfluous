@@ -16,15 +16,21 @@ RUN apt-get update && \
 
 RUN curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
 
-RUN git clone https://github.com/ThePansmith/Monifactory /git
+RUN mkdir /git
 
-WORKDIR /git/build
+WORKDIR /git
+
+RUN git init
+
+RUN git remote add origin https://github.com/ThePansmith/Monifactory
 
 ARG refspec
 
-RUN git fetch --depth=1 origin $refspec
+RUN git fetch --depth 1 origin $refspec:$refspec
 
 RUN git checkout $refspec
+
+WORKDIR /git/build
 
 RUN bash -c "source /root/.nvm/nvm.sh && npm install && node index.ts build-server"
 
