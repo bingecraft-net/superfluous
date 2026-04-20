@@ -26,7 +26,7 @@ RUN git remote add origin https://github.com/ThePansmith/Monifactory
 
 ARG refspec
 
-RUN git fetch --depth 1 origin $refspec:$refspec
+RUN git fetch --depth 1 origin $refspec
 
 RUN git checkout $refspec
 
@@ -61,8 +61,6 @@ RUN sed -i 's/^java/exec java/' server/run.sh
 
 COPY --from=build --chown=minecraft /git/dist/server server
 
-RUN java -jar server/mods/monilabs-*.jar E
-
 RUN curl -sfLo server/mods/pcf.jar https://cdn.modrinth.com/data/vDyrHl8l/versions/82bwNhmQ/proxy-compatible-forge-1.2.1.jar
 
 COPY --chown=minecraft overrides server
@@ -72,5 +70,7 @@ ENV PATH="$PATH:/home/minecraft/.local/bin"
 COPY ./bin/ .local/bin/
 
 WORKDIR server
+
+RUN java -jar mods/monilabs-*.jar insanity
 
 CMD exec start ./run.sh
