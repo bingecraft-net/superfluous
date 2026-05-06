@@ -61,6 +61,8 @@ RUN sed -i 's/^java/exec java/' server/run.sh
 
 COPY --from=build --chown=minecraft /git/dist/server server
 
+RUN rm server/mods/spark-*-forge.jar
+
 RUN curl -sfLo server/mods/pcf.jar https://cdn.modrinth.com/data/vDyrHl8l/versions/82bwNhmQ/proxy-compatible-forge-1.2.1.jar
 
 COPY --chown=minecraft overrides server
