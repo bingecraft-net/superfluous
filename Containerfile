@@ -26,7 +26,7 @@ RUN git remote add origin https://github.com/ThePansmith/Monifactory
 
 ARG refspec
 
-RUN git fetch --depth 1 origin $refspec:$refspec
+RUN git fetch --depth 1 origin $refspec
 
 RUN git checkout $refspec
 
